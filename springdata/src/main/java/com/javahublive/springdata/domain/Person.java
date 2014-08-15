@@ -15,13 +15,20 @@
 
 package com.javahublive.springdata.domain;
 
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+
 /**
  * @author ganesh
  *
  */
+@Entity
 public class Person {
 
-	private Long personId;
+	@Id @GeneratedValue(strategy=GenerationType.AUTO)
+	private Integer personId;
 	private String firstName;
 	private String lastName;
 	private String address;
@@ -29,7 +36,7 @@ public class Person {
 	/**
 	 * @return the personId
 	 */
-	public Long getPersonId() {
+	public Integer getPersonId() {
 		return personId;
 	}
 
@@ -37,7 +44,7 @@ public class Person {
 	 * @param personId
 	 *            the personId to set
 	 */
-	public void setPersonId(Long personId) {
+	public void setPersonId(Integer personId) {
 		this.personId = personId;
 	}
 
