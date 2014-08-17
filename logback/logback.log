@@ -1,0 +1,20 @@
+16:44:26.386 [main] INFO  com.javahublive.logback.WriteLog - Constructor call 
+2014-08-17 16:45:07,633 INFO [main] c.j.l.WriteLog [WriteLog.java:30] Constructor call 
+2014-08-17 16:46:23,553 INFO [main] com.javahublive.logback.WriteLog [WriteLog.java:30] Constructor call 
+2014-08-17 16:49:00,782 INFO [main] com.javahublive.logback.WriteLog [WriteLog.java:30] Constructor call 
+2014-08-17 16:49:21,711 INFO [main] com.javahublive.logback.WriteLog [WriteLog.java:30] Constructor call 
+2014-08-17 16:50:08,246 INFO [main] com.javahublive.logback.WriteLog [WriteLog.java:30] Constructor call 
+2014-08-17 16:53:32,800 INFO [main] com.javahublive.logback.WriteLog [WriteLog.java:30] Constructor call 
+2014-08-17 16:55:24,311 INFO [main] com.javahublive.logback.WriteLog [WriteLog.java:32] Constructor call 
+2014-08-17 16:55:24,337 INFO [main] com.javahublive.logback.WriteLog [WriteLog.java:32] Constructor call 
+2014-08-17 16:56:13,535 INFO [main] com.javahublive.logback.WriteLog [WriteLog.java:32] Constructor call 
+2014-08-17 16:56:13,564 INFO [main] com.javahublive.logback.WriteLog [WriteLog.java:32] Constructor call 
+2014-08-17 16:57:12,546 INFO [main] com.javahublive.logback.WriteLog [WriteLog.java:32] Constructor call 
+2014-08-17 16:57:12,575 INFO [main] com.javahublive.logback.WriteLog [WriteLog.java:32] Constructor call 
+2014-08-17 16:58:19,727 INFO [main] com.javahublive.logback.WriteLog [WriteLog.java:32] Constructor call 
+2014-08-17 16:58:19,760 INFO [main] com.javahublive.logback.WriteLog [WriteLog.java:32] Constructor call 
+2014-08-17 16:58:59,947 INFO [main] com.javahublive.logback.WriteLog [WriteLog.java:32] Constructor call 
+2014-08-17 16:58:59,974 INFO [main] com.javahublive.logback.WriteLog [WriteLog.java:32] Constructor call 
+2014-08-17 16:59:22,630 INFO [main] com.javahublive.logback.WriteLog [WriteLog.java:32] Constructor call 
+2014-08-17 16:59:44,877 INFO [main] com.javahublive.logback.WriteLog [WriteLog.java:32] Constructor call 
+2014-08-17 17:00:54,324 INFO [main] com.javahublive.logback.WriteLog [WriteLog.java:32] Constructor call 

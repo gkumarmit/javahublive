@@ -1,0 +1,38 @@
+<configuration>
+
+	<appender name="CONSOLE" class="ch.qos.logback.core.ConsoleAppender">
+		<encoder>
+			<pattern>%d{HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n
+			</pattern>
+		</encoder>
+	</appender>
+
+	<appender name="FILE" class="ch.qos.logback.core.FileAppender">
+		<file>logback.log</file>
+
+		<encoder>
+			<pattern>%date %level [%thread] %logger{36} [%file:%line] %msg%n
+			</pattern>
+		</encoder>
+	</appender>
+	
+	<appender name="LIBTRACE" class="ch.qos.logback.core.FileAppender">
+		<file>logbacklib.log</file>
+
+		<encoder>
+			<pattern>%date %level [%thread] %logger{36} [%file:%line] %msg%n
+			</pattern>
+		</encoder>
+	</appender>
+
+	<logger name="com.javahublive" level="INFO" />
+	<logger name="org.springframework" level="TRACE" additivity="false">
+	 <appender-ref ref="LIBTRACE" />
+	</logger>
+
+	<root level="TRACE">
+		<appender-ref ref="FILE" />
+		<appender-ref ref="CONSOLE" />
+	</root>
+
+</configuration>
