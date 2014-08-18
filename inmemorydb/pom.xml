@@ -13,7 +13,6 @@
   <properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<junit.version>4.11</junit.version>
-		<spring.version>4.0.6.RELEASE</spring.version>
 		<hsqldb.version>2.3.2</hsqldb.version>
 		<spring.version>4.0.6.RELEASE</spring.version>
 		<hibernate.entitymanager.version>4.3.6.Final</hibernate.entitymanager.version>
